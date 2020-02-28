@@ -16,5 +16,6 @@
 def endsPy(input):
 	if list(input.lower())[-2:] == ['p','y']:
 		return True
-
-print(endsPy('NO!'))
+	else:
+		return False
+#Commented for completion
