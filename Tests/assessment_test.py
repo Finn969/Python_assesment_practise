@@ -1,6 +1,4 @@
-import pytest
-from Code import example
-
+from Practise_assessment.Python_assesment_practise.Code import example
 def test_endsPy():
     assert example.endsPy("ilovepy") == True
     assert example.endsPy("welovepy") == True
